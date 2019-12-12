@@ -1,0 +1,30 @@
+{
+    "boulders": [
+        {
+            "id": 1,
+            "name": "l'exhumació",
+            "url": "https://www.rei.com/blog/wp-content/uploads/2017/06/111063644_large_a70809-1024x602.jpg",
+            "grade": "6b",
+            "holds": [
+                {
+                    "type": "foot",
+                    "x": 140,
+                    "y": 24,
+                    "size": 10
+                },
+                {
+                    "type": "foot",
+                    "x": 160,
+                    "y": 24,
+                    "size": 10
+                },
+                {
+                    "type": "hands",
+                    "x": 150,
+                    "y": 60,
+                    "size": 20
+                }
+            ]
+        }
+    ]
+}

@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import React, { Component } from 'react';
+import Block from './Components/Block/Block';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import jsonData from './Assets/test.json';
+
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+    }
+  }
+  // componentDidMount() {
+  //   // this.setState((state) => { json: JSON.parse(jsonPath) });
+  // }
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <Block blockData={jsonData.boulders[0]}></Block>
+
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
+
