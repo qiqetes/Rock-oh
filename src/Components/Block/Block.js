@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Hold from './Hold/Hold'
 import './Block.scss';
 
 
@@ -11,7 +12,9 @@ const Block = ({ blockData }) => (
                 <img src={blockData.url} alt="" />
             </div>
             <div className="block-holds">
-                <h1>THIS GOES ABOVE THE ROCO IMG</h1>
+                {blockData.holds.map((hold, i) => {
+                    return <Hold key={i} type={hold.type} x={hold.x} y={hold.y} size={hold.size}></Hold>
+                })}
             </div>
         </div>
     </div>
