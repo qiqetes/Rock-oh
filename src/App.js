@@ -10,9 +10,6 @@ class App extends Component {
     this.state = {
     }
   }
-  // componentDidMount() {
-  //   // this.setState((state) => { json: JSON.parse(jsonPath) });
-  // }
 
   render() {
     return (

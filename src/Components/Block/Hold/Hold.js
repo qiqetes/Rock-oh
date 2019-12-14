@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './Hold.scss'
+import handSvg from '../../../Assets/icons/hand.svg'
+import handsSvg from '../../../Assets/icons/hands.svg'
+import footSvg from '../../../Assets/icons/foot.svg'
+import feetSvg from '../../../Assets/icons/feet.svg'
 
 const Hold = ({ type, x, y, size, color }) => {
     const borderRadius = type == 'top' ? 12 : 6;
@@ -15,13 +19,31 @@ const Hold = ({ type, x, y, size, color }) => {
         // Types to handle: hand, hands, foot, foots, optional, top
         <div className="circle" style={circleStyle}>
             {
-                type == "hand" ? <HoldIcon parentSize={size / 2} color={color}></HoldIcon> : null
+                (type != 'def' && type != 'top')
+                    ? <HoldIcon parentSize={size / 2} color={color} type={type}></HoldIcon> : null
             }
         </div>
     )
 };
 
 const HoldIcon = ({ type, color, parentSize }) => {
+
+    const iconType = () => {
+        // TODO: complete
+        switch (type) {
+            case 'hand':
+                return handSvg;
+            case 'hands':
+                return handsSvg;
+            case 'foot':
+                return footSvg;
+            case 'feet':
+                return feetSvg;
+            case 'optional':
+                console.error('no icon yet');
+                break;
+        }
+    }
 
     const iconRadius = 24; // TODO: better in percentage
     const holdIconStyle = {
@@ -33,10 +55,12 @@ const HoldIcon = ({ type, color, parentSize }) => {
         height: `${iconRadius * 2}px`
     }
 
-
+    // Render
     return (
         <div className="holdIcon" style={holdIconStyle}>
-
+            <div className="helper">
+                <img src={iconType()} alt="hand" />
+            </div>
         </div>
     );
 }

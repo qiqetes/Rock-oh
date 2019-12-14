@@ -5,4 +5,17 @@
 .holdIcon{
     position: fixed;
     border-radius: 50%;
+    .helper{
+        display: flex;
+        align-items: center;
+
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    img{
+        margin: auto;
+        height: 70%;
+        width: 70%;
+    }
 }
