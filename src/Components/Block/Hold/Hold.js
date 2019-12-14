@@ -5,8 +5,8 @@ const Hold = ({ type, x, y, size, color }) => {
     const circleStyle = {
         width: `${size}px`,
         height: `${size}px`,
-        top: `${y}px`,
-        left: `${x}px`,
+        bottom: `calc(${y}% - ${size / 2}px`,
+        left: `calc(${x}% - ${size / 2}px`,
         borderColor: color,
     }
 

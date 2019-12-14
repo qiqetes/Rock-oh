@@ -24,7 +24,7 @@ const Block = ({ blockData }) => {
             <h1>{blockData.name}</h1>
             <div>
                 <div className="block-img">
-                    {/* <img src={blockData.url} alt="" /> */}
+                    <img src={blockData.url} alt="" />
                 </div>
                 <div className="block-holds">
                     {blockData.holds.map((hold, i) => {

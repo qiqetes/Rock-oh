@@ -3,26 +3,44 @@
         {
             "id": 1,
             "name": "l'exhumació",
-            "url": "https://www.rei.com/blog/wp-content/uploads/2017/06/111063644_large_a70809-1024x602.jpg",
+            "url": "https://instagram.fbcn9-1.fna.fbcdn.net/v/t51.2885-15/e35/74349806_1333934386787674_2522403561062400107_n.jpg?_nc_ht=instagram.fbcn9-1.fna.fbcdn.net&_nc_cat=110&oh=5400ae5337bcdac30722d07837ccd1a6&oe=5E6B5428",
             "grade": "6b",
             "holds": [
                 {
                     "type": "foot",
-                    "x": 140,
-                    "y": 24,
-                    "size": 10
+                    "x": 54,
+                    "y": 10,
+                    "size": 35
                 },
                 {
-                    "type": "foot",
-                    "x": 160,
-                    "y": 24,
-                    "size": 10
+                    "type": "hand",
+                    "x": 59.5,
+                    "y": 25.5,
+                    "size": 40
                 },
                 {
-                    "type": "hands",
-                    "x": 150,
-                    "y": 60,
-                    "size": 20
+                    "type": "def",
+                    "x": 41,
+                    "y": 38.5,
+                    "size": 55
+                },
+                {
+                    "type": "def",
+                    "x": 55,
+                    "y": 51,
+                    "size": 40
+                },
+                {
+                    "type": "def",
+                    "x": 58.5,
+                    "y": 65,
+                    "size": 45
+                },
+                {
+                    "type": "top",
+                    "x": 74,
+                    "y": 80,
+                    "size": 70
                 }
             ]
         }
