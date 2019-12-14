@@ -1,8 +1,12 @@
 .block{
-    div{
+    .block-container{
         width: 1000px;
         height: 1000px;
         position: relative; 
+    }
+    .block-holds{
+        width: 1000px;
+        height: 1000px;
     }
     div>div{
         position: absolute; 
@@ -13,5 +17,4 @@ img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }

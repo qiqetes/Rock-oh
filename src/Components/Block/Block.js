@@ -11,7 +11,7 @@ const Block = ({ blockData }) => {
         switch (blockData.grade) {
             case '5a':
                 color = '#c9f257'; break;
-            case '6b':
+            case '6a+':
                 color = '#f00c3a'; break;
         }
         console.log(color);
@@ -22,7 +22,7 @@ const Block = ({ blockData }) => {
         <div className="block">
 
             <h1>{blockData.name}</h1>
-            <div>
+            <div className="block-container">
                 <div className="block-img">
                     <img src={blockData.url} alt="" />
                 </div>
