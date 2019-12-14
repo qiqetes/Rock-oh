@@ -2,6 +2,8 @@
 App para instagram de roco_upv
 
 ## Install
-git clone https://github.com/qiqetes/Rock-oh.git
-npm install
-npm start
+```
+~ git clone https://github.com/qiqetes/Rock-oh.git
+~ npm install
+~ npm start
+```
