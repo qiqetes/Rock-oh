@@ -4,7 +4,7 @@
             "id": 1,
             "name": "l'exhumació",
             "url": "https://instagram.fbcn9-1.fna.fbcdn.net/v/t51.2885-15/e35/74349806_1333934386787674_2522403561062400107_n.jpg?_nc_ht=instagram.fbcn9-1.fna.fbcdn.net&_nc_cat=110&oh=5400ae5337bcdac30722d07837ccd1a6&oe=5E6B5428",
-            "grade": "6b",
+            "grade": "6a+",
             "holds": [
                 {
                     "type": "foot",
@@ -19,10 +19,10 @@
                     "size": 40
                 },
                 {
-                    "type": "def",
+                    "type": "hand",
                     "x": 41,
                     "y": 38.5,
-                    "size": 55
+                    "size": 100
                 },
                 {
                     "type": "def",
